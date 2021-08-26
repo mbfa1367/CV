@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Maryam Bagheri</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="CSS/style.css">
   <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Open+Sans&family=Roboto&family=Source+Sans+Pro&display=swap" rel="stylesheet">
   </head>
