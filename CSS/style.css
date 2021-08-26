@@ -1,0 +1,182 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 100%;
+  color: #40514E;
+}
+
+
+hr{
+  width: 10%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  margin-top: 40px;
+
+
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem; /* 64px /16 */
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem; /* 40px /16 */
+  color: #66BFBF;
+  padding-bottom: 5px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.conclusion{
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Merriweather Sans', sans-serif;
+  /* top bottom  left right */
+  margin: 20px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.8rem;
+    /* top bottom  left right */
+  padding: 20px 0;
+}
+
+.normal{
+  font-weight: normal;
+}
+
+.topcontainer{
+  background-color: #E4f9f5;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container{
+  /* add margin to top & bottom 100px and left & right is 0 */
+margin: 100px 0;
+
+
+
+}
+
+.bottom-container{
+background-color: #66BFBF;
+/* top left& right bottom  */
+padding: 50px 0 20px;
+
+}
+
+.span{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  right:380px;
+  top: 50px;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  top: 200px;
+  left: 320px;
+  }
+
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+
+  }
+
+  .skill1-img{
+    width: 25%;
+    float: left;
+  margin-right: 30px;
+  }
+  .skill2-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+
+/* use for clear a parahrapg from right and prevent from wrapping aroung floated image
+.clear_property{
+  clear: right;
+
+}
+*/
+
+.BUTTON_PCG {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #1199E9);
+   background-image: -moz-linear-gradient(top, #11CDD4, #1199E9);
+   background-image: -ms-linear-gradient(top, #11CDD4, #1199E9);
+   background-image: -o-linear-gradient(top, #11CDD4, #1199E9);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #1199E9);
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #FFFFFF;
+    font-family: 'Merriweather Sans', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 12px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_PCG:hover {
+
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BAC4A);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BAC4A);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BAC4A);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BAC4A);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BAC4A);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
