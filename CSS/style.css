@@ -43,9 +43,9 @@ h3{
 }
 
 .conclusion{
-  width: 30%;
+  width: 45%;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
 }
 
 p{
@@ -109,7 +109,7 @@ padding: 50px 0 20px;
 
 .top-cloud{
   position: absolute;
-  right:200px;
+  right:100px;
   top: 30px;
 
 }
@@ -117,7 +117,7 @@ padding: 50px 0 20px;
 .bottom-cloud{
   position: absolute;
   top: 180px;
-  left: 150px;
+  left: 90px;
   }
 
 .skill-row{
