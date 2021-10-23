@@ -29,8 +29,8 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem; /* 40px /16 */
   color: #66BFBF;
-  padding-bottom: 5px;
-}
+  padding-bottom: 4px;
+  }
 
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -38,7 +38,7 @@ h3{
 }
 
 .intro{
-  width: 30%;
+  width: 40%;
   margin:auto;
 }
 
@@ -71,7 +71,8 @@ a:hover{
 }
 
 .normal{
-  font-weight: normal;
+  font-weight:normal;
+    padding: 2%;
 }
 
 .topcontainer{
@@ -81,6 +82,10 @@ a:hover{
   position: relative;
   padding-top: 100px;
 
+}
+
+.myself-img{
+  border-radius: 100%;
 }
 
 .middle-container{
@@ -104,7 +109,7 @@ padding: 50px 0 20px;
 
 .top-cloud{
   position: absolute;
-  right:380px;
+  right:300px;
   top: 50px;
 
 }
@@ -112,7 +117,7 @@ padding: 50px 0 20px;
 .bottom-cloud{
   position: absolute;
   top: 200px;
-  left: 320px;
+  left: 210px;
   }
 
 .skill-row{
@@ -131,6 +136,12 @@ text-align: left;
     width: 25%;
     float: right;
     margin-left: 30px;
+  }
+
+  .skill3-img{
+    width: 25%;
+    float: left;
+  margin-right: 30px;
   }
 
 /* use for clear a parahrapg from right and prevent from wrapping aroung floated image
