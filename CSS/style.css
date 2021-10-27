@@ -191,3 +191,15 @@ text-align: left;
    border-radius: 20px;
    text-decoration: none;
 }
+
+@media(max-width:976px){
+
+  .top-cloud{
+    position: static;
+
+  }
+
+  .bottom-cloud{
+    position: static;
+    }
+}
